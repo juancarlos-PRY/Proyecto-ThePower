@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Suscríbete a Mercedes</title>
+</head>
+<body class="container subscribe-page">
+    <header class="grid-mercedes">
+        <img src="https://freepngimg.com/save/24322-mercedes-benz-logo-file/1000x1000" alt="Mercedes">
+        <nav>
+            <ul class="list grid-mercedes">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./mercedes-info.html">Descubre Mercedes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="subscribe-content">
+        <section class="subscribe-panel">
+            <p class="info-kicker">Mercedes-Benz</p>
+            <h1>Forma parte del mundo Mercedes</h1>
+            <p>Recibe novedades sobre nuevos modelos, tecnología, experiencias y lanzamientos exclusivos.</p>
+
+            <form class="subscribe-form" action="#" method="post">
+                <label for="name">Nombre</label>
+                <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input id="email" name="email" type="email" placeholder="tuemail@ejemplo.com" required>
+
+                <label for="interest">Me interesa</label>
+                <select id="interest" name="interest">
+                    <option>Modelos nuevos</option>
+                    <option>Vehículos eléctricos</option>
+                    <option>Experiencias Mercedes</option>
+                    <option>Tecnología y novedades</option>
+                </select>
+
+                <label class="subscribe-check">
+                    <input type="checkbox" required>
+                    <span>Acepto recibir comunicaciones de Mercedes.</span>
+                </label>
+
+                <button type="submit">Suscribirme ahora</button>
+            </form>
+
+            <a class="subscribe-back" href="./index.html">Volver a la página principal</a>
+        </section>
+    </main>
+</body>
+</html>
